@@ -1,0 +1,7 @@
+This script is designed to query Zenoss instances, and report back on Events.
+
+Requirements:
+* Python
+* PyYAML (http://pyyaml.org)
+  * If installing on Linux Mint, run 'sudo apt-get install python-yaml'
+    May also be available in Ubuntu.
