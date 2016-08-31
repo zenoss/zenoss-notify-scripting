@@ -1,0 +1,12 @@
+0.1
+* Initial Release
+
+0.2
+* Started adding version numbers.
+* Added timeout value to Zenoss queries.  Zenoss authentication is set to twice the timeout value.
+* Added new version that provides minimal output, using the curses library for screen updates.
+* Removed all commandline options, and added new commandline option to specify optional configuration file.
+  The configuration file can be used to override any default options.  A sample config file is also
+  provided, as well.
+* Added shell scripts to run both versions with the config file named 'config'.
+* Checked in the .svnignore file, along with a shell script to apply updates to the ignore file.

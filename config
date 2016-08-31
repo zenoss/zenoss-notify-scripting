@@ -1,0 +1,32 @@
+# Any of these are optional, except for the instances
+---
+severities:
+- 5
+event_states:
+- 0
+production_states:
+- 1000
+device_classes: network
+cycle_time: 20
+username: <zenoss_username>
+password: <zenoss_passord>
+sound_file: beepScript-beep.mp3
+instances:
+- name: London
+  short_name: LON
+  target_instance: https://zenoss.lon.example.com
+- name: Virginia
+  short_name: IAD
+  target_instance: https://zenoss.iad.example.com
+- name: Dallas
+  short_name: DFW
+  target_instance: https://zenoss.dfw.example.com
+- name: Hong Kong
+  short_name: HKG
+  target_instance: https://zenoss.hkg.example.com
+- name: Chicago
+  short_name: ORD
+  target_instance: https://zenoss.ord.example.com
+- name: Sydney
+  short_name: SYD
+  target_instance: https://zenoss.syd.example.com
